@@ -1,2 +1,2 @@
-# Fish-Ages
-Constructing an Expectation Maximisation Algorithm from scratch and using it to model the ages of fish populations
+# Modelling the Age of Fish Using the EM-Algorithm
+
