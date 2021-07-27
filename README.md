@@ -5,7 +5,11 @@
 </p>
 
 ## **Summary**
-The length of fish and the age of fish are closely correlated. The dataset that will be focused on in this project includes 1000 observations of fish lengths. For 100 of these observations, the age of the fish has been determined scientifically by measuring the number of growth layers on the otolith (a small ear bone). However, for the remaining 900 fishes, only the length is known. The aim of this project is to therefore estimate the corresponding age of these fish based only on their length. Rather than simply using an expectation-maximisation (EM) algorithm created in an external package, the EM-algorithm will be created from scratch
+The length of fish and the age of fish are closely correlated. The dataset that will be focused on in this project includes 1000 observations of fish lengths. For 100 of these observations, the age of the fish has been determined scientifically by measuring the number of growth layers on the otolith (a small ear bone). However, for the remaining 900 fishes, only the length is known. The aim of this project is to therefore estimate the corresponding age of these fish based only on their length. As can be seen in the graph below, the lengths of the fish seem to follow a Gaussian Mixture Model with three component distributions. Rather than simply using an expectation-maximisation (EM) algorithm created in an external package, the EM-algorithm will be created from scratch
+
+<p align="center">
+  <img src="https://github.com/DeanLundie/Fish-Ages/blob/main/MixtureModel.png" />
+</p>
 
 ## **Expectation-Maximisation (EM) Algorithm**
 When an independent mixture model is needed to model the distribution of a given random variable, the EM algorithm can be used to obtain parameter estimates for each independent mixture. In this case, considering that the age structure of the fish follows a Gaussian mixture model with three components, we can use the EM algorithm to obtain the mean and variance for each of the three normal distributions. 
