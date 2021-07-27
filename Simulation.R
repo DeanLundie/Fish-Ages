@@ -26,7 +26,7 @@ grpdata %>%
 grpdata.df <- grpdata$Length
 
 
-# K - means will show you initial assignments ## insert chart into report to show how initialisation step works
+# K - means will show you initial assignments 
 
 sim.kmeans <- kmeans(grpdata.df, 3)
 sim.cluster <- sim.kmeans$cluster
